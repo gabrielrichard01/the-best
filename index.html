@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>The Best</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>The Best</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div id="carousel-exemplo" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner imagem-slide">
+                    <div data-bs-interval="3000" class="carousel-item active">
+                        <img src="./img/pele.jpg" alt="Imagem do pelé">
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img src="./img/maradona.jpg" alt="Imagem do maradona">
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img src="./img/jordan.jpg" alt="Imagem do michael Jordan">
+                    </div>
+                </div>
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                </div>
+            </div> 
+        </div>
+        <section id="card-best">
+            <div class="container">
+                <div class="titulo-card">
+                    <h1>Os 9 melhores espostistas de todos os tempos</h1>
+                </div>
+                <div class="conteudo row">
+                    <div class="col">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                                <h2>1&deg; Posição</h2>
+                            </div>
+                            <img src="img/pele.jpg" alt="Imagem do pelé">
+                            <div class="card-body">
+                                <h3 class="card-title">Pelé (Futebol)</h3>
+                                <h4 class="card-subtitle">Maiores Conquistas</h4>
+                                <ul>
+                                    <li>2 Mundial interclubes</li>
+                                    <li>2 Libertadores</li>
+                                    <li>3 Copa do mundo</li>
+                                    <li>Bola de prata na copa do mundo</li>
+                                    <li>Chuteira de prata na copa do mundo</li>
+                                </ul>
+                                <a href="https://novabrasilfm.com.br/especiais/foras-de-serie/pele-historia-completa/" class="btn btn-primary" target="_blank">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                                <h2>2&deg; Posição</h2>
+                            </div>
+                            <img src="img/maradona.jpg" alt="Imagem do Maradona">
+                            <div class="card-body">
+                                <h3 class="card-title">Maradona (Futebol)</h3>
+                                <h4 class="card-subtitle">Maiores Conquistas</h4>
+                                <ul>
+                                    <li>1 Campeonato Argentino</li>
+                                    <li>1 Copa do rei</li>
+                                    <li>1 Copa do mundo Sub-20</li>
+                                    <li>1 Copa do mundo</li>
+                                    <li>Melhor jogador da copa do mundo</li>
+                                </ul>
+                                <a href="https://www.goal.com/br/not%C3%ADcias/diego-maradona-60-anos-gols-titulos-polemicas-e-outros-fatos-do-d10s-da-argentina/c4jje3t0eps010xtklcsicqh7#T%C3%8DTULOS" target="_blank" class="btn btn-primary">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                                <h2>3&deg; Posição</h2>
+                            </div>
+                            <img src="./img/jordan.jpg" alt="Imagem do michael Jordan">
+                            <div class="card-body">
+                                <h3 class="card-title">Michael Jordan (Basquete)</h3>
+                                <h4 class="card-subtitle">Maiores Conquistas</h4>
+                                <ul>
+                                    <li>6 NBA</li>
+                                    <li>2 Medalha de ouro nas olimpíadas</li>
+                                    <li>1 Medalha de ouro Pan-Americanos</li>
+                                    <li>1 Melhor defensor da NBA</li>
+                                    <li>1 Melhor estreante da NBA</li>
+                                </ul>
+                                <a href="https://olympics.com/pt/noticias/michael-jordan-historico-conquistas-recordes-lenda-nba" class="btn btn-primary" target="_blank">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                                <h2>4&deg; Posição</h2>
+                            </div>
+                            <img src="./img/bolt.jpg" alt="Imagem do Usain Bolt">
+                            <div class="card-body">
+                                <h3 class="card-title">Usain Bolt (Velocista)</h3>
+                                <h4 class="card-subtitle">Maiores Conquistas</h4>
+                                <ul>
+                                    <li>3 Ouros no Rio 2016</li>
+                                    <li>3 Ouros no Mundial Pequim 2015</li>
+                                    <li>3 Ouros em Londres 2012</li>
+                                    <li>6 Melhor Atleta do ano</li>
+                                    <li>4 Laureus</li>
+                                </ul>
+                                <a href="https://pt.wikipedia.org/wiki/Usain_Bolt#" class="btn btn-primary" target="_blank">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                                <h2>5&deg; Posição</h2>
+                            </div>
+                            <img src="./img/ayrton-senna.jpg" alt="Imagem do Ayrton Senna">
+                            <div class="card-body">
+                                <h3 class="card-title">Ayrton Senna (Piloto)</h3>
+                                <h4 class="card-subtitle">Maiores Conquistas</h4>
+                                <ul>
+                                    <li>6 Vitória no GP de Monaco</li>
+                                    <li>8 Maior número de poles em sequência</li>
+                                    <li>3 mundiais de piloto</li>
+                                    <li>5 mundiais de construtores</li>
+                                </ul>
+                                <a href="https://pt.wikipedia.org/wiki/Ayrton_Senna" class="btn btn-primary" target="_blank">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                                <h2>6&deg; Posição</h2>
+                            </div>
+                            <img src="./img/michael-phelps.jpg" alt="Imagem do michael Phelps">
+                            <div class="card-body">
+                                <h3 class="card-title">Michael Phelps (Nadador)</h3>
+                                <h4 class="card-subtitle">Maiores Conquistas</h4>
+                                <ul>
+                                    <li>6 Ouros em Atenas 2004</li>
+                                    <li>8 Ouros em Pequim 2008</li>
+                                    <li>4 Ouros em Londres 2012</li>
+                                    <li>5 Ouros em Rio 2016</li>
+                                </ul>
+                                <a href="https://pt.wikipedia.org/wiki/Michael_Phelps" class="btn btn-primary" target="_blank">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                                <h2>7&deg; Posição</h2>
+                            </div>
+                            <img src="./img/muhammad-ali.png" alt="Imagem do muhammad ali">
+                            <div class="card-body">
+                                <h3 class="card-title">Muhammad Ali (Boxeador)</h3>
+                                <h4 class="card-subtitle">Maiores Conquistas</h4>
+                                <ul>
+                                    <li>57 vitórias</li>
+                                    <li>37 Por nocaute</li>
+                                    <li>1 Ouro em Roma 1960</li>
+                                    <li>1 Arthur ashe courage award</li>
+                                </ul>
+                                <a href="https://terceirotempo.uol.com.br/noticias/ha-cinco-anos-morria-muhammad-ali-o-maior-pugilista-de-todos-os-tempos#:~:text=para%20Muhammad%20Ali%20quando%20se,Ol%C3%ADmpicos%20de%20Roma%2C%20em%201960." class="btn btn-primary" target="_blank">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                                <h2>8&deg; Posição</h2>
+                            </div>
+                            <img src="./img/bruce-lee.jpg" alt="Imagem do bruce lee">
+                            <div class="card-body">
+                                <h3 class="card-title">Bruce Lee (Carateca)</h3>
+                                <h4 class="card-subtitle">Maiores Conquistas</h4>
+                                <ul>
+                                    <li>2 Torneio de Boxe das escolas</li>
+                                    <li>1 Campeonato Colony Cha-Cha</li>
+                                    <li>1966 Filme Besouro Verde</li>
+                                    <li>1972 Filme Operação do Dragão</li>
+                                </ul>
+                                <a href="https://www.ebiografia.com/bruce_lee/" class="btn btn-primary" target="_blank">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                                <h2>9&deg; Posição</h2>
+                            </div>
+                            <img src="./img/michael-schumacher.jpg" alt="Imagem do michael schumacher">
+                            <div class="card-body">
+                                <h3 class="card-title">Michael Schumacher (Piloto)</h3>
+                                <h4 class="card-subtitle">Maiores Conquistas</h4>
+                                <ul>
+                                    <li>7 Titulos da F1</li>
+                                    <li>91 Vitórias</li>
+                                    <li>13 Corridas vencidas em uma temporada</li>
+                                    <li>77 Voltas mais rápidas</li>
+                                </ul>
+                                <a href="https://olympics.com/pt/noticias/michael-jordan-historico-conquistas-recordes-lenda-nba" class="btn btn-primary" target="_blank">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>
+                2023 &copy; The Best - Todos os direitos reservados
+            </p>
+        </div>
+    </footer>
+    <script src="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
+</body>
+</html>
